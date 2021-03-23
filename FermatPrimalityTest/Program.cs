@@ -20,7 +20,7 @@ namespace FermatPrimalitySet
             {
                 ranNum = r1.Next(1, num_max);
             } while (!IsPrime(ranNum, max_tests));
-            Console.Write($"output: {ranNum}");
+            Console.WriteLine($"output: {ranNum}");
         }
 
         static bool IsPrime(int ran, int max_test)
